@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 20px 150px;
+}
+
+.left {
+  width: 40%;
+  float: left;
+}
+
+.right {
+  width: 60%;
+  float: left;
+}
+
+
+
+@media (min-width: 576px) and (max-width: 775px) {
+
+  .container {
+    margin: 20px 20px;
+  }
+
+  .left {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .right {
+    width: 85%;
+    float: none;
+    color: #444;
+    background-color: #e3e3e3;
+
+    margin: 20px;
+    padding: 20px;
+  }
+}
